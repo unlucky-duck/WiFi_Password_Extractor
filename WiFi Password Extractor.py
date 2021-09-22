@@ -18,16 +18,16 @@ for i in range(40):
 
 sleep(1)
 print('\n\n\n {:<30}|  Password\n'.format('Host name'))
-output = subprocess.check_output(['netsh', 'wlan', 'show', 'profiles']).decode().split('\n')
+output = subprocess.check_output(['netsh', 'wlan', 'show', 'profiles']).decode().splitlines()
 
-profiles = [i.split(':', 1)[1][1:-1] for i in output if 'All User Profile' in i]
+profiles = [i.split(':', 1)[1][1:] for i in output if 'All User Profile' in i]
 
 for profile in profiles:
-    result = subprocess.check_output(['netsh', 'wlan', 'show', 'profiles', profile, 'key=clear']).decode('ISO-8859-1').split('\n')
+    result = subprocess.check_output(['netsh', 'wlan', 'show', 'profiles', profile, 'key=clear']).decode('ISO-8859-1').splitlines()
     color = next(colors)
     
     try:
-        password = [b.split(':', 1)[1][1:-1] for b in result if 'Key Content' in b][0]
+        password = [b.split(':', 1)[1][1:] for b in result if 'Key Content' in b][0]
         cprint(f' {profile:<30}|  {password}', color=color)
         
     except:
@@ -50,4 +50,4 @@ for line in figlet.splitlines():
     sleep(.2)
 
 sleep(1)
-input(f'\n\n Press enter to exit...')
+input('\n\n Press enter to exit...')
