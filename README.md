@@ -4,4 +4,6 @@
 - See the password of all WiFi you connected
 - Great interface
 
-**Note:** this program for Windows OS
+### **Operating systems:**
+- [x] Windows
+- [ ] Linux (coming soon)
