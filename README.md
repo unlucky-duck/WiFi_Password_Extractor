@@ -3,7 +3,6 @@
 
 ## **Table of Contents:**
 - [About the Program](#about-the-program)
-  - [Features](#features)
   - [Operating Systems](#operating-systems)
   - [Requirements](#requirements)
   - [Versions](#versions)
@@ -11,10 +10,8 @@
 - [See Also](#see-also)
 
 ## **About the Program:**
-
-### **Features:**
-- See the password of all WiFi you connected
-- Great interface
+With this program, you can see the password of all WiFi you connected. <br>
+This program has a great interface.
 
 ### **Operating Systems:**
 - [x] Windows
@@ -29,7 +26,6 @@
 - v1.1
 
 ## **Reach Me:**
-How reach me:
 - [**sina.programer**](https://www.instagram.com/sina.programer) in instagram
 - [**sina_programer**](https://t.me/sina_programer) in telegram
 
