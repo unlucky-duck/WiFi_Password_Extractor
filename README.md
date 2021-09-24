@@ -21,7 +21,8 @@
 - [ ] Linux (coming soon)
 
 ### **Requirements:**
-- termcolor `pip install termcolor`
+- termcolor `pip install termcolor` <br><br>
+**Note:** If you use the .exe asset in release, no need to install any library
 
 ### **Versions:**
 - v1.0
@@ -31,7 +32,6 @@
 How reach me:
 - [**sina.programer**](https://www.instagram.com/sina.programer) in instagram
 - [**sina_programer**](https://t.me/sina_programer) in telegram
-- [**sina.programerr**](https://mail.google.com/mail/?view=cm&fs=1&to=sina.programerr@gmail.com) in gmail
 
 ## **See Also:**
 - [Password Killer](https://github.com/sina-programer/Password_Killer)
